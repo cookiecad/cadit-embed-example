@@ -13,7 +13,7 @@ Visit [https://cookiecad.github.io/cadit-embed-example](https://cookiecad.github
 ```html
 <iframe
   id="caditFrame"
-  src="https://app.cadit.com/?embed=true&partnerName=YourAppName"
+  src="https://app.cadit.app/new?embed=true&partnerName=YourAppName"
   allow="clipboard-read; clipboard-write"
   style="width: 100%; height: 600px; border: none;"
 ></iframe>
@@ -22,7 +22,7 @@ Visit [https://cookiecad.github.io/cadit-embed-example](https://cookiecad.github
 ### 2. Set up message handling
 
 ```javascript
-const CADIT_ORIGIN = 'https://app.cadit.com';
+const CADIT_ORIGIN = 'https://app.cadit.app';
 
 // Listen for messages from CADit
 window.addEventListener('message', (event) => {
