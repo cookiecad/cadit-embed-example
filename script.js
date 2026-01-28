@@ -7,9 +7,9 @@
 
 // Configuration
 // IMPORTANT: This must match the origin of your CADit iframe
-// For local development, use the local dev server origin
-// For production, use 'https://app.cadit.com'
-const CADIT_ORIGIN = 'http://localhost:5175';
+// For local development, use 'http://localhost:5175'
+// For production, use 'https://app.cadit.app'
+const CADIT_ORIGIN = 'https://app.cadit.app';
 const PARTNER_NAME = 'MyApp';
 
 // DOM Elements
